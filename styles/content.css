@@ -1,0 +1,45 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    padding-top: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.project-box {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+
+    background-color: rgb(41, 41, 41);
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 200px;
+    width: 500px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    transition: background-color 0.1s;
+}
+
+.project-box:hover {
+    background-color: rgb(34, 34, 34);
+}
+
+.project-img {
+    padding: 25px;
+}
+
+.project-img-file {
+    width: 150px;
+    border-radius: 200px;
+}
+
+.project-info {
+    padding: 25px;
+}
+
+.project-name:hover {
+    text-decoration: underline;
+}
